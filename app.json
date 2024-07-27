@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "notificationapp",
+    "slug": "notificationapp",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.savio629.notificationapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "79b373fd-7938-46d8-9048-4fa37899b5e1"
+      }
+    }
+  }
+}
